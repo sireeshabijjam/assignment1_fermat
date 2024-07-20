@@ -17,8 +17,8 @@ This program allows an interactive user to search for "near misses" in the formu
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/sireeshabijjam/assignment1_fermat
+   cd assignment1_fermat
    ```
 
 2. Run the script:
@@ -26,15 +26,19 @@ This program allows an interactive user to search for "near misses" in the formu
    ```sh
    python assignment1_fermat.py
    ```
+   or run the exe file on Windows OS
+   ```sh
+   ./dist/assignment1_fermat.exe
+   ```
 
-3. Follow the on-screen instructions to enter values for $(n)$ and $(k)$:
+4. Follow the on-screen instructions to enter values for $(n)$ and $(k)$:
 
    - $(n)$: The power to use in the equation (must be between 3 and 11).
    - $(k)$: The upper limit for $(x)$ and $(y)$ (must be greater than 10).
 
-4. The program will display the smallest relative miss found for the given values of $(n)$ and $(k)$.
+5. The program will display the smallest relative miss found for the given values of $(n)$ and $(k)$.
 
-5. After the search is complete, you can choose to explore smallest misses for other values of $(n)$ and $(k)$ by typing "yes" or "no" when prompted.
+6. After the search is complete, you can choose to explore smallest misses for other values of $(n)$ and $(k)$ by typing "yes" or "no" when prompted.
 
 ## Program Structure
 
@@ -51,3 +55,4 @@ This program allows an interactive user to search for "near misses" in the formu
 ## Example
 
 ### Sample Output
+![Screenshot](screenshot/output.png)
