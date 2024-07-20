@@ -3,7 +3,7 @@
 # External files: None
 # Programmers: Abhivardhan Tammana , Sireesha Reddy Bijjam
 # Course: Software Engineering, CPSC 60500, Section 1
-# Date: [Submission Date]
+# Date: 7/20/2024
 # Description: This program searches for "near misses" of the form (x, y, z, n, k) in the formula x^n + y^n = z^n,
 # where x, y, z, n, k are positive integers, and outputs the smallest relative miss found.
 
