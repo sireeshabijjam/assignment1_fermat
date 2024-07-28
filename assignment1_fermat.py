@@ -2,6 +2,7 @@
 # File Name: assignment1_fermat.py
 # External files: None
 # Programmers: Abhivardhan Tammana , Sireesha Reddy Bijjam
+# Email : sireeshareddybijja@lewisu.edu
 # Course: Software Engineering, CPSC 60500, Section 1
 # Date: 7/20/2024
 # Description: This program searches for "near misses" of the form (x, y, z, n, k) in the formula x^n + y^n = z^n,
