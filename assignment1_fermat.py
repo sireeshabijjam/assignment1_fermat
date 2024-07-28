@@ -1,8 +1,8 @@
 # Fermat's Last Theorem Near Misses
 # File Name: assignment1_fermat.py
 # External files: None
-# Programmers: Abhivardhan Tammana , Sireesha Reddy Bijjam
-# Email : sireeshareddybijja@lewisu.edu
+# Programmers: Abhivardhan Tammana, Sireesha Reddy Bijjam
+# Email : AbhivardhanTammana@lewisu.edu, sireeshareddybijja@lewisu.edu
 # Course: Software Engineering, CPSC 60500, Section 1
 # Date: 7/20/2024
 # Description: This program searches for "near misses" of the form (x, y, z, n, k) in the formula x^n + y^n = z^n,
@@ -10,6 +10,7 @@
 
 import math
 
+# finds the near misses for the given inputs "n" and "k".
 def find_near_misses(n, k):
     smallest_miss = float('inf')
     #storing the values of x,y,z,miss for smallest possible miss found
@@ -42,6 +43,7 @@ def find_near_misses(n, k):
     print(f"\n##### SMALLEST RELATIVE MISS AMONG {count} OTHER MISSESS #####")
     print(f"x = {best_x}, y = {best_y}, z = {best_z}\nactual miss = {actual_miss}\nrelative miss = {smallest_miss:.10f}")
 
+#Prompts the user for n and k, validates them, and calls find_near_misses.
 def main():
     #User input n,k
     while True:
